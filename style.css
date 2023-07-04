@@ -1,0 +1,108 @@
+.side-nav {
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+.wrapper {
+    background: #333;
+    height: 100vh;
+    width: 75px;
+}
+.nav-bloc {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-bottom: 1px solid #f2f2f21e;
+    font-size: 0px;
+}
+.nav-bloc:hover {
+    background: rgb(24, 24, 24);
+}
+.nav-bloc:hover .sub-nav {
+    transform: translateX(75px);
+}
+.nav-bloc svg {
+    width: 25px;
+    fill: #f2f2f2;
+    transition:  0.2s ease-in-out ;
+}
+.nav-bloc:hover  svg {
+    fill: #50bddf;
+}
+.container {
+    display : flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+
+}
+.items {
+    text-align: center;
+    margin-left: 3%;
+}
+.items img {
+    height: 200px;
+    width: 200px;
+    margin-top: 40%;
+}
+.menu {
+    text-decoration:underline;
+    text-decoration-color: chocolate;
+    margin-left: 12%;
+    margin: 0;
+    padding-top: 20px;
+}
+.fond {
+    background: url(restaurant1fond.jpg) fixed no-repeat top center;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    text-align: center;
+    color: azure;
+    background-color:black;
+
+}
+body {
+    margin:0;
+    padding:0;
+}
+.logo {
+    text-align: left;
+}
+.logo img {
+    width: 300px;
+    height: 300px;
+
+}
+.titre {
+    margin-top: 100px;
+
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 60%;
+    display: inline-block;
+    color: black;
+    line-height: 40px;
+}
+.button:hover {
+    background-color: goldenrod;
+}
+.formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
